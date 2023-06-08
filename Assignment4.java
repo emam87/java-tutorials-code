@@ -9,9 +9,11 @@ public class Assignment4 {
 
       System.out.print("Number of installments? ");
       // get number of installments from user
+      numberofInstallment= input.nextInt;
      
 
       // calculate  installment amount for per month
+      installmentPerMonth=phonePrice/numberofInstallment;
     
 
         System.out.println("Monthly installment Amount: "+installmentPerMonth + " euros");
